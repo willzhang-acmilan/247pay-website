@@ -252,6 +252,12 @@ body {
     flex-shrink: 0;
 }
 
+.logo-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
 .logo-text {
     display: inline-flex;
     align-items: baseline;
@@ -268,6 +274,15 @@ body {
 
 .logo-pay {
     color: #10285D;
+}
+
+.logo-tagline {
+    color: #10285D;
+    font-size: 0.38rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 .nav-links {
